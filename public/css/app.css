@@ -1,0 +1,55 @@
+/* Body background */
+body {
+    background-color: rgb(228, 228, 227);
+}
+
+/* Cart badge styling */
+.navbar .badge {
+    font-size: 0.75rem;
+    padding: 0.35em 0.55em;
+    border-radius: 50%;
+}
+
+/* Optional: hover effect for navbar links */
+.navbar .nav-link:hover {
+    color: #0d6efd; /* Bootstrap primary color */
+    text-decoration: underline;
+}
+
+/* Neon card container */
+.neon-card {
+    background: #0d6efd;
+    border: 2px solid #101010;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #627474, 0 0 20px #627474, 0 0 30px #627474;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.neon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #c2b3b3, 0 0 40px #c2b3b3, 0 0 60px #c2b3b3;
+}
+
+.neon-text {
+    color: #dee3e3;
+    text-shadow: 0 0 5px #101010, 0 0 10px #101010;
+}
+
+/* Neon button */
+.neon-button {
+    color: #0d1bff; /* text color matches card background */
+    background-color: #dee3e3; 
+    border: 2px solid #dee3e3;
+    text-shadow: 0 0 5px #dee3e3;
+    transition: all 0.3s;
+}
+
+.neon-button:hover {
+    background-color: #cdd5d5;
+    border-color: #cdd5d5;
+    color: #0d1bff;
+    text-shadow: 0 0 10px #cdd5d5;
+}
+
+
